@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Testklasse mit countUpperCaseLetter Test">
+    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Testklasse mit countSpecialSign Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/campus02/PasswordValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/campus02/PasswordValidationTest.class" afterDir="false" />
@@ -59,7 +59,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordValidationTest.countSpecialSign">
+  <component name="RunManager" selected="JUnit.PasswordValidationTest.validatePasswordStrength">
     <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin2Uebung" />
       <extension name="coverage">
@@ -71,22 +71,6 @@
       <option name="PACKAGE_NAME" value="org.campus02" />
       <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordValidationTest.KonstruktorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KonfHK2021Termin2Uebung" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campus02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.campus02" />
-      <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
-      <option name="METHOD_NAME" value="KonstruktorTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,13 +123,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordValidationTest.validatePasswordStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin2Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="validatePasswordStrength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PasswordValidationTest.validatePasswordStrength" />
         <item itemvalue="JUnit.PasswordValidationTest.countSpecialSign" />
         <item itemvalue="JUnit.PasswordValidationTest" />
         <item itemvalue="JUnit.PasswordValidationTest.countUpperCaseLetter" />
         <item itemvalue="JUnit.PasswordValidationTest.validateLengthTest" />
-        <item itemvalue="JUnit.PasswordValidationTest.KonstruktorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675957193918</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Testklasse mit countSpecialSign Test">
+      <created>1675957505256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675957505256</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +209,7 @@
     <MESSAGE value="Klasse PasswordValidation inklusive aller geforderten Methoden; Testklasse mit Konstruktor Test" />
     <MESSAGE value="Testklasse mit validateLength Test" />
     <MESSAGE value="Testklasse mit countUpperCaseLetter Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testklasse mit countUpperCaseLetter Test" />
+    <MESSAGE value="Testklasse mit countSpecialSign Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testklasse mit countSpecialSign Test" />
   </component>
 </project>

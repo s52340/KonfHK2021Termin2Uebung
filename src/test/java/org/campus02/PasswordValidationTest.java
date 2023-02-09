@@ -70,4 +70,18 @@ class PasswordValidationTest {
         Assertions.assertEquals(expected2, passwordEightWithUpperLettersNumbersSpecials.countSpecialSign());
     }
 
+    @Test
+    void validatePasswordStrength() {
+        byte expected0 = 0;
+        Assertions.assertEquals(expected0, passwordSmallerEight.validatePasswordStrength());
+
+        Assertions.assertEquals(1,passwordEightwithNothing.validatePasswordStrength());
+
+        Assertions.assertEquals(2,passwordEightWithUpperLettersNumbers.validatePasswordStrength());
+
+        Assertions.assertEquals(2, passwordEightWithUpperLettersSpecialLetters.validatePasswordStrength());
+
+        Assertions.assertEquals(3, passwordEightWithUpperLettersNumbersSpecials.validatePasswordStrength());
+
+    }
 }
