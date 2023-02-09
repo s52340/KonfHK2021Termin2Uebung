@@ -21,7 +21,7 @@ class PasswordValidationTest {
         passwordEightwithNothing = new PasswordValidation("luxusauto");
         passwordEightwithUpperLetters = new PasswordValidation("LuxusAuto");
         passwordEightWithUpperLettersNumbers = new PasswordValidation("LuxusAuto4");
-        passwordEightWithUpperLettersSpecialLetters = new PasswordValidation("Luxus%Auto");
+        passwordEightWithUpperLettersSpecialLetters = new PasswordValidation("Luxus%AuTo");
         passwordEightWithUpperLettersNumbersSpecials = new PasswordValidation("Luxus%Auto6");
 
     }
@@ -46,6 +46,17 @@ class PasswordValidationTest {
     }
 
     @Test
-    void name() {
+    @DisplayName("Test ob Passwort Grossbuchstaben enthält")
+    void countUpperCaseLetter() {
+        int expectedNull = 0;
+        Assertions.assertEquals(expectedNull, passwordSmallerEight.countUpperCaseLetters());
+
+        int expected2= 2;
+        Assertions.assertEquals(expected2, passwordEightwithUpperLetters.countUpperCaseLetters());
+
+        int expected3 = 3;
+        Assertions.assertEquals(expected3,passwordEightWithUpperLettersSpecialLetters.countUpperCaseLetters());
     }
+
+
 }
