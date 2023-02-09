@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Hashcode Kommentar in PasswordValidation Klasse;">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/PasswordValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/PasswordValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,11 +39,48 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.campus02" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin2Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PasswordValidationTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +97,19 @@
       <option name="project" value="LOCAL" />
       <updated>1675951030706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin">
+      <created>1675951541440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675951541440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hashcode Kommentar in PasswordValidation Klasse;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hashcode Kommentar in PasswordValidation Klasse;" />
+    <MESSAGE value="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin" />
   </component>
 </project>
