@@ -19,6 +19,7 @@ public class PasswordValidation {
     }
 
 
+
     public boolean validateLength(){
         int passwordLength = password.length();
         if (passwordLength >= 8){

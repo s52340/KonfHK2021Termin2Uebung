@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" afterDir="false" />
+    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Klasse PasswordValidation inklusive aller geforderten Methoden; Testklasse mit Konstruktor Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/PasswordValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/campus02/PasswordValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/campus02/PasswordValidationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PasswordValidationTest">
     <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin2Uebung" />
       <extension name="coverage">
@@ -75,9 +76,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordValidationTest.KonstruktorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin2Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="KonstruktorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidationTest.validateLengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin2Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="validateLengthTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PasswordValidationTest" />
+        <item itemvalue="JUnit.PasswordValidationTest.validateLengthTest" />
+        <item itemvalue="JUnit.PasswordValidationTest.KonstruktorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -104,12 +139,31 @@
       <option name="project" value="LOCAL" />
       <updated>1675951541440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Klasse PasswordValidation inklusive aller geforderten Methoden; Testklasse mit Konstruktor Test">
+      <created>1675956193709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675956193709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hashcode Kommentar in PasswordValidation Klasse;" />
     <MESSAGE value="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin" />
+    <MESSAGE value="Klasse PasswordValidation inklusive aller geforderten Methoden; Testklasse mit Konstruktor Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klasse PasswordValidation inklusive aller geforderten Methoden; Testklasse mit Konstruktor Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

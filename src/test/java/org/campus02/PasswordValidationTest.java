@@ -34,5 +34,18 @@ class PasswordValidationTest {
         Assertions.assertEquals(expected,passwordEightWithUpperLettersNumbers.getPassword());
     }
 
+    @Test
+    @DisplayName("Test für Länge des Passworts > 8")
+    void validateLengthTest() {
+        boolean expectedUnder8 = false;
+        Assertions.assertEquals(expectedUnder8, passwordSmallerEight.validateLength());
 
+        boolean expectedOver8 = true;
+        Assertions.assertEquals(expectedOver8, passwordEightWithUpperLettersNumbersSpecials.validateLength());
+
+    }
+
+    @Test
+    void name() {
+    }
 }
