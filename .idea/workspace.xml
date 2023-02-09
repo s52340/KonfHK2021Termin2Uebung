@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Testklasse mit validateLength Test">
+    <list default="true" id="4eaf02d4-44ee-4a03-8d0d-907dae16fb23" name="Changes" comment="Testklasse mit countUpperCaseLetter Test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/campus02/PasswordValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/campus02/PasswordValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/campus02/PasswordValidationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordValidationTest.countUpperCaseLetter">
+  <component name="RunManager" selected="JUnit.PasswordValidationTest.countSpecialSign">
     <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin2Uebung" />
       <extension name="coverage">
@@ -84,6 +86,22 @@
       <option name="PACKAGE_NAME" value="org.campus02" />
       <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
       <option name="METHOD_NAME" value="KonstruktorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidationTest.countSpecialSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin2Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.campus02" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="countSpecialSign" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,8 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordValidationTest.countUpperCaseLetter" />
+        <item itemvalue="JUnit.PasswordValidationTest.countSpecialSign" />
         <item itemvalue="JUnit.PasswordValidationTest" />
+        <item itemvalue="JUnit.PasswordValidationTest.countUpperCaseLetter" />
         <item itemvalue="JUnit.PasswordValidationTest.validateLengthTest" />
         <item itemvalue="JUnit.PasswordValidationTest.KonstruktorTest" />
       </list>
@@ -167,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675956902315</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testklasse mit countUpperCaseLetter Test">
+      <created>1675957193918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675957193918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,6 +201,7 @@
     <MESSAGE value="Umwandlung in ein mvn Projekt inkl junit5 dependencies und mvn surefire plugin" />
     <MESSAGE value="Klasse PasswordValidation inklusive aller geforderten Methoden; Testklasse mit Konstruktor Test" />
     <MESSAGE value="Testklasse mit validateLength Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testklasse mit validateLength Test" />
+    <MESSAGE value="Testklasse mit countUpperCaseLetter Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testklasse mit countUpperCaseLetter Test" />
   </component>
 </project>

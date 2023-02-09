@@ -22,7 +22,7 @@ class PasswordValidationTest {
         passwordEightwithUpperLetters = new PasswordValidation("LuxusAuto");
         passwordEightWithUpperLettersNumbers = new PasswordValidation("LuxusAuto4");
         passwordEightWithUpperLettersSpecialLetters = new PasswordValidation("Luxus%AuTo");
-        passwordEightWithUpperLettersNumbersSpecials = new PasswordValidation("Luxus%Auto6");
+        passwordEightWithUpperLettersNumbersSpecials = new PasswordValidation("Luxus%7Auto!6");
 
     }
 
@@ -58,5 +58,16 @@ class PasswordValidationTest {
         Assertions.assertEquals(expected3,passwordEightWithUpperLettersSpecialLetters.countUpperCaseLetters());
     }
 
+    @Test
+    void countSpecialSign() {
+        int expected0 = 0;
+        Assertions.assertEquals(expected0, passwordEightwithUpperLetters.countSpecialSign());
+
+        int expected1 = 1;
+        Assertions.assertEquals(expected1, passwordEightWithUpperLettersSpecialLetters.countSpecialSign());
+
+        int expected2 = 2;
+        Assertions.assertEquals(expected2, passwordEightWithUpperLettersNumbersSpecials.countSpecialSign());
+    }
 
 }
